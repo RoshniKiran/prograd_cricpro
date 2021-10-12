@@ -1,0 +1,56 @@
+/* Type your code here */
+
+
+/* change the font family and spacing as per your project font */
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	/* top: 10px; */
+	margin-left: 80px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+    font-style: normal;
+}
+
+#img_logo{
+	position: relative;
+	left: 1100px;
+	top: 10px;
+}
+
+table{
+	border-collapse: collapse;
+	border:none;
+	width: 60%;
+	background: white;
+}
+
+.tablerow{
+	border-bottom: 2px solid grey;
+}
+
+tr{
+	height: 30px;
+}
+td
+{
+	padding-left: 20px;
+}
+
+#firstrow{
+	color: white;
+}
+.greyfont{
+	color: gray;
+}
+
+#maindiv{
+	padding-left: 50px;
+	height: 600px;
+	background-image: url(/assets/background-image1.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right;
+}
